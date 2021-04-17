@@ -44,6 +44,13 @@
   text-decoration: none;
 }
 
+.footer-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  line-height: 1.2;
+  color: #808080;
+}
+
 @media (max-width: 576px) {
 
   .footer-nav .list {
