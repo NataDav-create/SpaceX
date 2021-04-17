@@ -7,7 +7,7 @@ const Header = (props) => (
   <header className="header">
     <Link to="/">
       <img src={logo} alt="Logo Space X" className="logo" />
-    </Link>
+    </Link>{" "}
     <nav className="main-nav nav">
       <ul className="list">
         {" "}
@@ -22,7 +22,7 @@ const Header = (props) => (
             >
               {" "}
               {item}{" "}
-            </Link>
+            </Link>{" "}
           </li>
         ))}{" "}
       </ul>{" "}
@@ -35,7 +35,11 @@ const Header = (props) => (
           </NavLink>{" "}
         </li>{" "}
         <li className="item">
-          <NavLink to="calendar" className="item-link" activeClassName="active">
+          <NavLink
+            to="/calendar"
+            className="item-link"
+            activeClassName="active"
+          >
             Calendar{" "}
           </NavLink>{" "}
         </li>{" "}
